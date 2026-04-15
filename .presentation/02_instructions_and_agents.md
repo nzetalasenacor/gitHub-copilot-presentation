@@ -11,12 +11,12 @@
 
 <div style="background: #E6F1FB; border: 1px solid #85B7EB; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #0C447C;">copilot-instructions.md</div>
-<div style="font-size: 11px; color: #185FA5;">Global — always loaded</div>
+<div style="font-size: 11px; color: #185FA5;">Global: always loaded</div>
 </div>
 
 <div style="background: #E1F5EE; border: 1px solid #5DCAA5; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #085041;">*.instructions.md</div>
-<div style="font-size: 11px; color: #0F6E56;">Scoped — on pattern match</div>
+<div style="font-size: 11px; color: #0F6E56;">Scoped: on pattern match</div>
 </div>
 
 <div style="background: #FAECE7; border: 1px solid #F0997B; border-radius: 8px; padding: 10px 14px;">
@@ -31,12 +31,12 @@
 
 <div style="background: #EEEDFE; border: 1px solid #AFA9EC; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #3C3489;">AGENTS.md</div>
-<div style="font-size: 11px; color: #534AB7;">Multi-tool — always loaded</div>
+<div style="font-size: 11px; color: #534AB7;">Multi-tool: always loaded</div>
 </div>
 
 <div style="background: #EAF0FF; border: 1px solid #91A7F7; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #2847A1;">SKILL.md</div>
-<div style="font-size: 11px; color: #4563C7;">Reusable capability packs — loaded when applicable</div>
+<div style="font-size: 11px; color: #4563C7;">Reusable capability packs: loaded when applicable</div>
 </div>
 
 <div style="background: #F6F3FF; border: 1px solid #C7B8F8; border-radius: 8px; padding: 10px 14px;">
@@ -48,7 +48,7 @@
 
 <div style="background: #F4ECFF; border: 1px solid #C696F7; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #6E2AA5;">Hooks</div>
-<div style="font-size: 11px; color: #8D44C4;">Lifecycle interceptors — adjacent to the stack, not part of its priority order</div>
+<div style="font-size: 11px; color: #8D44C4;">Lifecycle interceptors: adjacent to the stack</div>
 </div>
 </div>
 

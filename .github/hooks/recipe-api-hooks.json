@@ -2,12 +2,12 @@
   "version": 1,
   "hooks": {
     "_comment_event_2": "AVAILABLE EVENTS:",
-    "_comment_event_3": "sessionStart — agent session begins",
-    "_comment_event_4": "sessionEnd — agent session ends",
-    "_comment_event_5": "userPromptSubmitted — user sends a prompt",
-    "_comment_event_6": "preToolUse — BEFORE any tool call (can block it)",
-    "_comment_event_7": "postToolUse — AFTER any tool call (can log, lint, format)",
-    "_comment_event_8": "errorOccurred — agent hits an error",
+    "_comment_event_3": "sessionStart",
+    "_comment_event_4": "sessionEnd",
+    "_comment_event_5": "userPromptSubmitted",
+    "_comment_event_6": "preToolUse",
+    "_comment_event_7": "postToolUse",
+    "_comment_event_8": "errorOccurred",
 
     "preToolUse": [
       {

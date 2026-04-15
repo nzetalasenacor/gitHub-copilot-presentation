@@ -11,15 +11,6 @@ tools: ['read_file', 'insert_edit_into_file', 'replace_string_in_file', 'run_in_
 2. This creates a custom agent you invoke with @test in Copilot Chat
 3. Custom agents are like specialized team members — each has a role and constraints
 4. Be explicit about what the agent CANNOT do — boundaries matter more than capabilities
-5. Model specification: Valid options include:
-   - gpt-4o (recommended for code tasks)
-   - gpt-4o-mini (faster, good for simpler tasks)
-   - gpt-4-turbo
-   - o1-preview (for complex reasoning)
-   - o1-mini (faster reasoning model)
-   You can also specify multiple models as fallbacks: ['gpt-4o', 'gpt-4o-mini']
-TO USE:
-  In Copilot Chat, type: @test Write tests for the ProductService
 -->
 
 ## Persona
