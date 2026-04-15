@@ -1,31 +1,3 @@
-<!--
-  A skill is a folder with a SKILL.md file and optional resources (templates,
-  scripts, examples). Copilot loads it automatically when it detects a relevant
-  task, or you can invoke it manually with /flyway-migration in chat.
-
-  HOW IS THIS DIFFERENT FROM INSTRUCTIONS?
-  Instructions = short rules, always loaded (or on file pattern match)
-  Skills = detailed workflows with resources, loaded only when relevant
-
-  Use instructions for: "use constructor injection", "never use any"
-  Use skills for: "here's exactly how to create a migration, with a template,
-  naming rules, validation steps, and examples"
-
-  The folder name MUST match the "name" in the frontmatter below.
-
-  HOW COPILOT USES IT:
-  1. Discovery — reads the name and description from frontmatter
-  2. Match — when you ask "add a table" or "create a migration", it matches
-  3. Load — injects SKILL.md into context
-  4. Resources — reads template.sql only when it needs it
-
-  This progressive loading means you can have many skills without bloating context.
-
-  INVOKE MANUALLY:
-  /flyway-migration Add a categories table with name and description fields
--->
-
----
 name: flyway-migration
 description: >
 Create Flyway database migrations for the Spring Boot recipe API.

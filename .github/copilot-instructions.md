@@ -1,10 +1,4 @@
 # Copilot Instructions
-#
-# 1. Place this file at: .github/copilot-instructions.md
-# 2. It applies to EVERY Copilot interaction in this repo (chat, agent mode, code review)
-# 3. Copilot reads it automatically
-# 5. Be specific: "write clean code" does nothing. "Use constructor injection" changes behavior.
-# 6. Test your rules: ask the agent to violate one. If it complies, rewrite the rule.
 
 ## Stack
 - Maven for builds (`mvn clean install`)

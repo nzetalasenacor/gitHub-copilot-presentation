@@ -1,14 +1,6 @@
 {
   "version": 1,
   "hooks": {
-    "_comment_event_2": "AVAILABLE EVENTS:",
-    "_comment_event_3": "sessionStart",
-    "_comment_event_4": "sessionEnd",
-    "_comment_event_5": "userPromptSubmitted",
-    "_comment_event_6": "preToolUse",
-    "_comment_event_7": "postToolUse",
-    "_comment_event_8": "errorOccurred",
-
     "preToolUse": [
       {
         "type": "command",
@@ -36,27 +28,5 @@
       }
     ]
 
-  },
-
-  "_comment_1": "Hooks are shell commands that run automatically at key moments",
-  "_comment_2": "during a Copilot agent session. They receive JSON via stdin",
-  "_comment_3": "and can return JSON via stdout to control agent behavior.",
-  "_comment_4": "Instructions = ADVICE. The agent reads them and usually follows",
-  "_comment_5": "them, but it can drift. Instructions are soft guidance.",
-  "_comment_13": "Hooks = ENFORCEMENT. They are deterministic shell commands.",
-  "_comment_14": "A preToolUse hook that returns continue:false will BLOCK the",
-  "_comment_15": "action every time, no matter what. The agent cannot ignore it.",
-  "_comment_16": "",
-  "_comment_17": "WHEN TO USE HOOKS (vs instructions):",
-  "_comment_18": "- Protecting files the agent should NEVER touch → hook",
-  "_comment_19": "- Code style preferences (naming, patterns) → instruction",
-  "_comment_20": "- Auto-formatting after edits → hook",
-  "_comment_21": "- Framework choices → instruction",
-  "_comment_22": "- Audit logging for compliance → hook",
-  "_comment_23": "- 'Prefer constructor injection' → instruction",
-  "_comment_24": "Rule of thumb: if the consequence of ignoring it is serious,",
-  "_comment_25": "use a hook. If it is just annoying, use an instruction.",
-  "_comment_39": "",
-  "_comment_40": "TOKEN COST: Zero. Hooks run outside the LLM context.",
-  "_comment_41": "Only the systemMessage (if any) adds a few tokens."
+  }
 }

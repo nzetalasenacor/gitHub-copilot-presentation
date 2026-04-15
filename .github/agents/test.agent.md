@@ -4,14 +4,6 @@ description: QA engineer that writes and fixes tests for the Spring Boot applica
 model: ['gpt-4o', 'gpt-4o-mini']
 tools: ['read_file', 'insert_edit_into_file', 'replace_string_in_file', 'run_in_terminal', 'get_errors', 'create_file', 'open_file']
 ---
-<!--
-# Test Agent
-
-1. Place in: .github/agents/test.agent.md
-2. This creates a custom agent you invoke with @test in Copilot Chat
-3. Custom agents are like specialized team members — each has a role and constraints
-4. Be explicit about what the agent CANNOT do — boundaries matter more than capabilities
--->
 
 ## Persona
 

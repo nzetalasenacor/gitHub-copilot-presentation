@@ -1,11 +1,5 @@
 # AGENTS.md
 
-<!--
-1. Place at the root of your repository
-2. Works with Copilot, Claude Code, Gemini CLI, and other AI coding tools
-3. Use this for info that ANY agent needs: build commands, project structure, setup steps
--->
-
 ## Project overview
 
 Recipe Manager — a Spring Boot 3.5.5 REST API for creating, browsing, and searching recipes.  

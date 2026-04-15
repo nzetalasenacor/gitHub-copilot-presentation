@@ -1,31 +1,4 @@
 #!/bin/bash
-# =================================================================
-# HOOK: lint-after-edit.sh
-# EVENT: postToolUse (runs AFTER the agent edits/creates a file)
-#
-# WHAT IT DOES:
-# Runs the code formatter (Spotless) on any Java file the agent
-# just edited. This ensures every file the agent touches is
-# properly formatted — no matter what.
-#
-# WHY NOT JUST USE AN INSTRUCTION?
-# You could write "always format your code" in copilot-instructions.md.
-# But the agent formats at the END of a task, if it remembers.
-# This hook formats EVERY file, EVERY time, immediately after edit.
-# The result: zero formatting drift, zero extra tokens spent
-# asking the agent to format, and the agent never has to think
-# about formatting at all.
-#
-# PERFORMANCE NOTE:
-# This runs on a SINGLE file, not the whole project.
-# Typical execution: <2 seconds per file.
-# If your formatter is slow, increase timeoutSec in the JSON config.
-#
-# WHAT IF THE FORMATTER FAILS?
-# We return {"continue": true} regardless. A formatter failure
-# should not stop the agent's work — it's a nice-to-have, not
-# a gate. If you want hard enforcement, return continue:false.
-# =================================================================
 
 INPUT=$(cat)
 

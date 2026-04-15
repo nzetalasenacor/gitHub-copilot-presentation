@@ -1,22 +1,4 @@
 #!/bin/bash
-# =================================================================
-# HOOK: audit-log.sh
-# EVENT: postToolUse (runs AFTER every tool call)
-#
-# WHAT IT DOES:
-# Logs every action the agent takes to a CSV file.
-# Each line records: timestamp, tool name, file path, session ID
-#
-# WHY USE THIS?
-# - Compliance: know exactly what the agent did in a session
-# - Debugging: when something goes wrong, trace the agent's steps
-# - Learning: review logs to improve your instructions and hooks
-#
-# The log file is written to .github/hooks/audit.csv
-# You may want to add this file to .gitignore
-#
-# This hook never blocks the agent — it's purely observational.
-# =================================================================
 
 INPUT=$(cat)
 

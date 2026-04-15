@@ -2,11 +2,6 @@
 applyTo: "**/*Test.java"
 ---
 
-<!--
-1. Place in: .github/instructions/tests.instructions.md
-2. Rules only apply in test
--->
-
 ## Testing conventions
 
 - Use `@SpringBootTest` only for integration tests, never for unit tests
