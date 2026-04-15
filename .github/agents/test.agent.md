@@ -1,23 +1,25 @@
 ---
-name: test-agent
-description: "QA engineer that writes and fixes tests for the Spring Boot application"
-model: ['Claude Opus 4.5', 'GPT-5.2']
-tools:
-- read_file
-- edit_file
-- run_command
+name: test
+description: QA engineer that writes and fixes tests for the Spring Boot application
+model: ['gpt-4o', 'gpt-4o-mini']
+tools: ['read_file', 'insert_edit_into_file', 'replace_string_in_file', 'run_in_terminal', 'get_errors', 'create_file', 'open_file']
 ---
-
 <!--
 # Test Agent
 
-1. Place in: .github/agents/test-agent.md
-2. This creates a custom agent you invoke with @test-agent in Copilot Chat
+1. Place in: .github/agents/test.agent.md
+2. This creates a custom agent you invoke with @test in Copilot Chat
 3. Custom agents are like specialized team members — each has a role and constraints
 4. Be explicit about what the agent CANNOT do — boundaries matter more than capabilities
-5. We can specify the models the agent use and fallbacks (Support by VS Code, IntelliJ, not fully by CLI)
+5. Model specification: Valid options include:
+   - gpt-4o (recommended for code tasks)
+   - gpt-4o-mini (faster, good for simpler tasks)
+   - gpt-4-turbo
+   - o1-preview (for complex reasoning)
+   - o1-mini (faster reasoning model)
+   You can also specify multiple models as fallbacks: ['gpt-4o', 'gpt-4o-mini']
 TO USE:
-  In Copilot Chat, type: @test-agent Write tests for the ProductService
+  In Copilot Chat, type: @test Write tests for the ProductService
 -->
 
 ## Persona

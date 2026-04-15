@@ -4,7 +4,7 @@
 
 <!-- Section 1 -->
 <div style="background: #E6F1FB; border: 1px solid #85B7EB; border-radius: 10px; padding: 16px 20px; margin-bottom: 8px;">
-<div style="font-size: 15px; font-weight: 600; color: #0C447C; margin-bottom: 8px;">1. Instructions, Agent and Hook files</div>
+<div style="font-size: 15px; font-weight: 600; color: #0C447C; margin-bottom: 8px;">1. Instructions &amp; agent files</div>
 <div style="font-size: 12px; color: #185FA5; line-height: 1.6;">
 • Where Copilot gets its instructions<br>
 • How agent files, prompts, and hooks fit together<br>
@@ -16,10 +16,10 @@
 
 <!-- Section 2 -->
 <div style="background: #FAECE7; border: 1px solid #F0997B; border-radius: 10px; padding: 16px 20px; margin: 8px 0;">
-<div style="font-size: 15px; font-weight: 600; color: #712B13; margin-bottom: 8px;">2. Troubleshooting</div>
+<div style="font-size: 15px; font-weight: 600; color: #712B13; margin-bottom: 8px;">2. Spec-Driven Development</div>
 <div style="font-size: 12px; color: #993C1D; line-height: 1.6;">
-• Common issues and solutions<br>
-• Debugging techniques and approaches<br>
+• Manual specs<br>
+• Spec Kit can adds value<br>
 </div>
 </div>
 
@@ -27,10 +27,11 @@
 
 <!-- Section 3 -->
 <div style="background: #EAF3DE; border: 1px solid #97C459; border-radius: 10px; padding: 16px 20px; margin-top: 8px;">
-<div style="font-size: 15px; font-weight: 600; color: #27500A; margin-bottom: 8px;">3. Q&A</div>
+<div style="font-size: 15px; font-weight: 600; color: #27500A; margin-bottom: 8px;">3. Best practices</div>
 <div style="font-size: 12px; color: #3B6D11; line-height: 1.6;">
-• Your questions and discussion<br>
-• Next steps and resources
+• Write better instructions and prompts<br>
+• Use scoped files, agents, skills, and hooks deliberately<br>
+• Review outputs and improve the workflow continuously
 </div>
 </div>
 

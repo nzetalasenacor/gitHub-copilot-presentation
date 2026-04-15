@@ -6,8 +6,13 @@
 
 <!-- Left: Sources -->
 <div style="flex: 0 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 8px;">
-<p style="text-align: center; font-size: 12px; color: #6b6a65; margin: 0 0 4px;">
-</p>
+<p style="text-align: center; font-size: 12px; color: #6b6a65; margin: 0 0 4px;">Instruction sources <br>
+(top to bottom by priority)</p>
+
+<div style="background: #F1EFE8; border: 1px solid #B4B2A9; border-radius: 8px; padding: 10px 14px;">
+<div style="font-size: 13px; font-weight: 600; color: #444441;">Personal instructions</div>
+<div style="font-size: 11px; color: #5F5E5A;">User-level defaults — highest priority</div>
+</div>
 
 <div style="background: #E6F1FB; border: 1px solid #85B7EB; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #0C447C;">copilot-instructions.md</div>
@@ -43,8 +48,6 @@
 <div style="font-size: 13px; font-weight: 600; color: #4C3D91;">Organization instructions</div>
 <div style="font-size: 11px; color: #6A57B8;">Shared guardrails across teams</div>
 </div>
-
-<div style="height: 1px; background: linear-gradient(to right, transparent, #C4C2B8, transparent); margin: 12px 0;"></div>
 
 <div style="background: #F4ECFF; border: 1px solid #C696F7; border-radius: 8px; padding: 10px 14px;">
 <div style="font-size: 13px; font-weight: 600; color: #6E2AA5;">Hooks</div>
